@@ -73,4 +73,10 @@ The idea of creating a development agent has emerged from the recent empirical s
 
 Let’s consider here all the activities that a developer can do for a software system.
 
+## Proposed agenda for Self-Construction project:
+Traceability to recover components of the system to start constructing from that
+Exploring Intelligence Architectures as a Template
+Agent theory to model an intelligent system that serves as template to be differentiable when the selfconstrcution process starts
+Self-Evolution and how the system get better during the time with interactions with the environment
+Production models that self assemble and self replicate to construct. 
 
