@@ -9,6 +9,32 @@ If we are training a Deep Neural Net with method granularity, the tensor represe
 
 We must assume that the source code has a sequence-based nature and, therefore, we must treat it as such. We are not taking into account any structural information contain in the source code. 
 
+Ideally, we want to train neural nets with as much context as we can gather. Low level granularities do not make sense if we want to generalize code generation. Source code can be treated as a sequence-based data. However, we need to provide the entire context. Otherwise, it would be like providing some paragraphs with incomplete ideas to the a natural language generator. The generator will generate text with incoherent or incomplete ideas. The same would happen if with the source code that we are generating. It would be source code that only works for method generation, but we cannot lose information during the encoding. In other words, we need to encode the entire method without trimming methos sequences.
+
+So organizing the input sequences is vital. We do not want to mix up information of method 1 with information of method 2. FOr instance
+
+```python
+def m1 (x, y):
+ return x+y
+```
+
+```python
+def m2(x, z):
+ return z*x
+```
+
+Valid Input sequence:
+
+```math
+{def, m1, (, x, y, ), :, return, x, +, y}
+```
+
+
+Erroneous Input sequence:
+```math
+{def, m1, (, x, y, ), :, return, x, +, y, def, m2, (, x, z, ) }
+```
+
 
 ## RNN and Transformers in interventional studies
 
