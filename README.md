@@ -1,4 +1,4 @@
-# NaturalComputing4SE
+# Interpretable Representation Learning for Software Engineering
 A Natural Computing Blog for Software Engineering
 
 Software Evolution studied under the framework of Natural Computation
