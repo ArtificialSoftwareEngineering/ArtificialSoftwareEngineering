@@ -1,6 +1,6 @@
 # Interpreatable Representation Learning for Software Engineering
 >
-> by [danaderp](https://github.com/ArtificialSoftwareEngineering/iSE/blob/master/docs/profile/danaderp.md)
+> by [danaderp](https://github.com/ArtificialSoftwareEngineering/iSE/blob/master/docs/danaderp/)
 >
 Testing this document for Interpreatable Representation Learning for Software Engineering
 
