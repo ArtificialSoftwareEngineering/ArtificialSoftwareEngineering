@@ -11,4 +11,5 @@ This project looks for finding and understanding features of software artifacts 
 
 ## Feature Engineering Software Artifacts
 ### Information Science Traceability
-### Decomposing Source Code via Reconstruction
+### Decomposing Software Features via Self-Organization
+The purpose of this study is to implement a mechanism of self-organization that assembles Java Classes from deep code generated methods. The self-organization approach relies on Genetic Algorithms, Information Science, and Software Metrics.
